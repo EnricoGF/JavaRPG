@@ -1,10 +1,10 @@
 package ProjetoRPG;
 
 import java.util.Scanner;
-
 import ProjetoRPG.Classe.Cavaleiro;
 import ProjetoRPG.Classe.Mago;
 import ProjetoRPG.Classe.Ninja;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -30,12 +30,9 @@ public class Main {
             }
         }
         
-
         // Distribuição de pontos
         int habilidade, energia, sorte, pontosTotais;
-        
-        
-
+ 
         while (true) {
             pontosTotais = 12;
             habilidade = 6;
@@ -44,21 +41,21 @@ public class Main {
 
             System.out.print("\nHabilidade (mín 0, máx 6): ");
             int habilidadeSoma = scanner.nextInt();
-            if ( habilidade + habilidadeSoma > pontosTotais) {
+            if ( habilidade + habilidadeSoma > pontosTotais) { // Tratamento de erro
                 System.out.println("Extrapolou o limite! Resdistribua seus atributos");
                 continue;
             } else { habilidade = habilidade + habilidadeSoma; }
 
             System.out.print("\nEnergia (mín 0, máx 12): ");
             int energiaSoma = scanner.nextInt();
-            if (energia + energiaSoma > pontosTotais + 12 | energiaSoma + habilidadeSoma > pontosTotais) {
+            if (energia + energiaSoma > pontosTotais + 12 | energiaSoma + habilidadeSoma > pontosTotais) { // Tratamento de erro
                 System.out.println("Extrapolou o limite! Resdistribua seus atributos");
                 continue;
             } else { energia = energia + energiaSoma; }
 
             System.out.print("\nSorte (mín 0, máx 6): ");
             int sorteSoma = scanner.nextInt();
-            if (sorte + sorteSoma > pontosTotais | energiaSoma + habilidadeSoma + sorteSoma > pontosTotais) {
+            if (sorte + sorteSoma > pontosTotais | energiaSoma + habilidadeSoma + sorteSoma > pontosTotais) { // Tratamento de erro
                 System.out.println("Extrapolou o limite! Resdistribua seus atributos");
                 continue;
             } else { sorte = sorte + sorteSoma; }
@@ -96,13 +93,12 @@ public class Main {
             case 1: personagem = new Cavaleiro(nome, habilidade, energia, sorte, arma); break;
             case 2: personagem = new Mago(nome, habilidade, energia, sorte, arma); break;
             case 3: personagem = new Ninja(nome, habilidade, energia, sorte, arma); break;
-            default: System.out.println("Problema"); 
+            default: System.out.println("Problema"); // Tratamento de erro
             scanner.close();
             return;
         }
 
         personagem.exibirStatus();
-
         // Criando um monstro para testar o combate
         Monstro monstro = new Monstro("Orc", 8, 16);
         
@@ -113,7 +109,6 @@ public class Main {
         } else {
             System.out.println("Você escolheu não lutar.");
         }
-
         scanner.close();
     }
 }
