@@ -1,0 +1,9 @@
+M: S
+N: Entidade Sombria
+H: 14
+S: 10
+E: 30
+T: 200
+P: 3
+I: relíquia;r;0;4;4
+1;1

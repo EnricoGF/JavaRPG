@@ -2,12 +2,18 @@ package ProjetoRPG;
 
 import java.util.Random;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Personagem {
     protected String nome;
     protected int habilidade;
     protected int energia;
     protected int sorte;
     protected String arma;
+    protected List<Item> inventario = new ArrayList<>();
+    protected int moedas = 0;
+    protected int provisoes = 0;
     protected Random random = new Random();
 
     public Personagem(String nome, int habilidade, int energia, int sorte, String arma) {
@@ -17,6 +23,7 @@ public abstract class Personagem {
         this.sorte = sorte;
         this.arma = arma;
     }
+
 
     public void exibirStatus() {
         System.out.println("\nPersonagem: " + nome);
@@ -41,62 +48,67 @@ public abstract class Personagem {
         return sucesso;
     }
 
-    public void lutarContra(Monstro monstro) {
+    public String lutarContra(Monstro monstro) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-    
+
         System.out.println("\nBatalha contra: " + monstro.getNome());
         System.out.println("Energia do monstro: " + monstro.getEnergia());
         System.out.println("Habilidade do monstro: " + monstro.getHabilidade());
         System.out.println("Sua energia: " + this.energia);
-    
+
         while (this.energia > 0 && monstro.estaVivo()) {
             System.out.println("\n--Escolha sua ação--");
             System.out.println("1 - Atacar");
             System.out.println("2 - Testar Sorte (pode aumentar ou reduzir seu dano)");
             System.out.println("3 - Tentar fugir");
+            System.out.println("4 - Abrir inventário");
 
             System.out.println("\nEnergia do monstro: " + monstro.getEnergia());
             System.out.println("Sua energia: " + this.energia);
-    
+
             int escolha = scanner.nextInt();
-            int modificadorDano = 0;  // Modificador que pode ser +2 ou -1
-    
-            if (escolha == 2) {  // Se escolher testar a sorte
+            int modificadorDano = 0;
+
+            if (escolha == 2) {
                 if (testarSorte()) {
-                    modificadorDano = 2;  // +2 de dano extra
+                    modificadorDano = 2;
                     System.out.println("Sorte bem-sucedida! Você causará +2 de dano neste turno!");
                 } else {
-                    modificadorDano = -1; // -1 de dano (o ataque será mais fraco)
+                    modificadorDano = -1;
                     System.out.println("Você falhou no teste de sorte... Seu ataque será mais fraco neste turno.");
                 }
-                this.sorte--;  // A cada teste de sorte, reduz 1 ponto de sorte
-            } else if (escolha == 3) {  // Se tentar fugir, faz o teste de sorte
+                this.sorte--;
+            }
+            else if (escolha == 3) {
                 int sorteJogador = random.nextInt(11);
                 int sorteMonstro = random.nextInt(11);
-    
+
                 System.out.println("\nSorte do jogador: " + sorteJogador);
                 System.out.println("Sorte do monstro: " + sorteMonstro);
-    
+
                 if (sorteJogador > sorteMonstro) {
                     System.out.println("Você conseguiu fugir da batalha!");
-                    scanner.close();
-                    return;  // Sai do método, encerrando a luta
+                    return "fuga";
                 } else {
                     System.out.println("Você falhou ao tentar fugir!");
                 }
             }
-    
-            // **Teste de ataque**
+
+            else if (escolha == 4) {
+                abrirMenuInventario();
+                continue; // volta ao inicio do while
+            }
+
             int testeSorteJogador = random.nextInt(10) + 1 + this.habilidade;
             int testeSorteMonstro = random.nextInt(10) + 1 + monstro.getHabilidade();
-    
+
             System.out.println("\nTeste de combate:");
             System.out.println("Seu valor: " + testeSorteJogador);
             System.out.println("Valor do monstro: " + testeSorteMonstro);
-    
+
             if (testeSorteJogador > testeSorteMonstro) {
-                int dano = 2 + modificadorDano; // Aplica o modificador de dano do teste de sorte
+                int dano = 2 + modificadorDano;
                 monstro.reduzirEnergia(dano);
                 System.out.println("Você acertou o ataque! Causou " + dano + " de dano.");
             } else {
@@ -104,12 +116,71 @@ public abstract class Personagem {
                 System.out.println("O monstro venceu o teste de sorte! Você perdeu 2 de energia.");
             }
         }
-    
-        if (this.energia <= 0) {
-            System.out.println("Você foi derrotado...");
+
+        if (!monstro.estaVivo()) {
+            return "vitoria";
+        } else if (this.energia <= 0) {
+            return "derrota";
         } else {
-            System.out.println("Você derrotou o " + monstro.getNome() + "!");
+            return "fuga"; // exemplo se o jogador escolheu fugir
         }
-        scanner.close();
     }
+
+    public void adicionarItem(Item item) {
+        inventario.add(item);
+        System.out.println(" Item adicionado ao inventário: " + item);
+    }
+
+    public void ganharTesouro(int valor) {
+        moedas += valor;
+        System.out.println(" Você recebeu " + valor + " moedas. Total: " + moedas);
+    }
+
+    public void ganharProvisoes(int quantidade) {
+        provisoes += quantidade;
+        System.out.println(" Você recebeu " + quantidade + " provisões. Total: " + provisoes);
+    }
+
+    public void exibirInventario() {
+        System.out.println("\n Inventário:");
+        if (inventario.isEmpty()) {
+            System.out.println("Seu inventário está vazio.");
+        } else {
+            for (Item item : inventario) {
+                System.out.println("- " + item);
+            }
+        }
+        System.out.println(" Moedas: " + moedas);
+        System.out.println(" Provisões: " + provisoes);
+    }
+
+    public void abrirMenuInventario() {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.println("\n===== INVENTÁRIO =====");
+            exibirInventario();
+            System.out.println("\n1 - Usar provisão (+4 de energia)");
+            System.out.println("2 - Voltar");
+
+            int escolha = scanner.nextInt();
+
+            if (escolha == 1) {
+                if (provisoes > 0) {
+                    provisoes--;
+                    energia += 4;
+                    System.out.println("Você usou uma provisão e recuperou 4 de energia!");
+                    System.out.println("Energia atual: " + energia);
+                } else {
+                    System.out.println(" Você não tem provisões para usar.");
+                }
+            } else if (escolha == 2) {
+                break;
+            } else {
+                System.out.println("Opção inválida. Tente novamente.");
+            }
+        }
+    }
+
+
 }

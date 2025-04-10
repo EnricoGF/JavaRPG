@@ -1,0 +1,9 @@
+M: S
+N: Guardião da Pedra
+H: 10
+S: 6
+E: 18
+T: 100
+P: 1
+I: martelo;r;0;2;2
+25;1

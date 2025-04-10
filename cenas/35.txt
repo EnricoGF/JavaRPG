@@ -1,0 +1,3 @@
+35: Um velho druida oferece ensinamentos antigos.
+#36: Aceitar
+#37: Recusar

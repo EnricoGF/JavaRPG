@@ -1,0 +1,8 @@
+M: S
+N: Sombra Pequena
+H: 8
+S: 4
+E: 9
+P: 1
+I: essência;r;0;1;0
+33;1

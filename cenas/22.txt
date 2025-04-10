@@ -1,0 +1,9 @@
+M: S
+N: Bruxa das Ruínas
+H: 12
+S: 8
+E: 20
+T: 150
+P: 2
+I: cajado;w;1;3;3
+30;1

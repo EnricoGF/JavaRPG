@@ -1,0 +1,3 @@
+6: Dentro da barraca, você encontra um diário e um mapa.
+#12: Ler o diário
+#13: Pegar o mapa e sair

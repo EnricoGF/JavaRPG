@@ -1,0 +1,8 @@
+M: S
+N: Goblin Arqueiro
+H: 6
+S: 6
+E: 9
+T: 15
+I: arco;c;1;1;1
+25;1

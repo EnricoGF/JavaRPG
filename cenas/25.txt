@@ -1,0 +1,3 @@
+25: Você chega ao portão do templo antigo. Ele está selado.
+#26: Procurar uma entrada secreta
+#27: Forçar a porta

@@ -1,0 +1,8 @@
+M: S
+N: Salamandra
+H: 7
+S: 5
+E: 10
+T: 30
+P: 1
+38;1

@@ -1,0 +1,3 @@
+4: Um esquilo te encara fixamente e depois corre, como se quisesse que você o seguisse.
+#8: Seguir o esquilo
+#9: Ignorar e seguir caminho

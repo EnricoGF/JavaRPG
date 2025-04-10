@@ -1,0 +1,3 @@
+12: O diário fala sobre um antigo mal preso sob o solo da floresta.
+#18: Procurar o local
+#19: Ignorar o aviso

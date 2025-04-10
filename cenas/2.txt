@@ -1,0 +1,3 @@
+2: A floresta é densa e misteriosa. Você sente que está sendo observado.
+#4: Avançar com cautela
+#5: Gritar por ajuda

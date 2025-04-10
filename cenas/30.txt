@@ -1,0 +1,3 @@
+30: Você encontra um símbolo mágico gravado no chão.
+#31: Tocar o símbolo
+#32: Evitar o símbolo

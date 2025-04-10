@@ -1,0 +1,3 @@
+3: Você encontra um acampamento abandonado com restos de comida quente.
+#6: Investigar barracas
+#7: Vasculhar mochilas

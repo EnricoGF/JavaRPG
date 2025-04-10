@@ -1,0 +1,4 @@
+13: O mapa indica três pontos: uma torre, um pântano e ruínas antigas.
+#20: Ir à torre
+#21: Ir ao pântano
+#22: Ir às ruínas

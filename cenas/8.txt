@@ -1,0 +1,8 @@
+M: S
+N: Goblin
+H: 6
+S: 4
+E: 8
+T: 10
+I: faca;c;1;0;1
+10;1

@@ -1,0 +1,2 @@
+33: Cena vazia.
+#1: Retornar ao início
