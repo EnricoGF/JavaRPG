@@ -1,0 +1,3 @@
+23: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 24: Continuar explorando
+# 25: Retornar pelo caminho

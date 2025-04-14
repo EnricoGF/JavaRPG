@@ -1,0 +1,5 @@
+6: Você encontra um baú misterioso no caminho.
+# 7: Abrir o baú
+# 8: Ignorar
+
+I: diário antigo;c;0;0;0

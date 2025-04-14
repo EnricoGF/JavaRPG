@@ -1,0 +1,3 @@
+35: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 36: Continuar explorando
+# 37: Retornar pelo caminho

@@ -1,0 +1,3 @@
+46: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 47: Continuar explorando
+# 48: Retornar pelo caminho

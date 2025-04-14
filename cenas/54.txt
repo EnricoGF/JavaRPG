@@ -1,0 +1,9 @@
+M: S
+N: Esqueleto
+H: 7
+S: 5
+E: 11
+T: 10
+P: 0
+I: elmo;c;1;1;0
+55;1

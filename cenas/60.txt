@@ -1,0 +1,9 @@
+M: S
+N: Rei Lich
+H: 16
+S: 12
+E: 35
+T: 300
+P: 4
+I: coroa da morte;c;0;5;0
+1;1

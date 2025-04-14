@@ -1,0 +1,3 @@
+10: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 11: Continuar explorando
+# 12: Retornar pelo caminho

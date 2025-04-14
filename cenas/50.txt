@@ -1,0 +1,3 @@
+50: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 51: Continuar explorando
+# 52: Retornar pelo caminho

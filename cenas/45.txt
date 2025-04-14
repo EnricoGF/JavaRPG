@@ -1,0 +1,3 @@
+45: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 46: Continuar explorando
+# 47: Retornar pelo caminho

@@ -1,0 +1,3 @@
+16: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 17: Continuar explorando
+# 18: Retornar pelo caminho

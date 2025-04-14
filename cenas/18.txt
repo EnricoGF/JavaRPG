@@ -1,0 +1,5 @@
+18: Você encontra um baú misterioso no caminho.
+# 19: Abrir o baú
+# 20: Ignorar
+
+I: anel mágico;c;0;0;0

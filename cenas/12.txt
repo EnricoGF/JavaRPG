@@ -1,0 +1,9 @@
+M: S
+N: Rato Gigante
+H: 7
+S: 5
+E: 10
+T: 29
+P: 0
+I: elmo;c;1;1;2
+13;1

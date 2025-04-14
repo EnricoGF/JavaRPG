@@ -1,0 +1,3 @@
+41: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 42: Continuar explorando
+# 43: Retornar pelo caminho

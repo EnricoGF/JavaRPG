@@ -1,0 +1,3 @@
+38: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 39: Continuar explorando
+# 40: Retornar pelo caminho

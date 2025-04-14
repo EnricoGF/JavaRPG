@@ -1,0 +1,3 @@
+7: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 8: Continuar explorando
+# 9: Retornar pelo caminho

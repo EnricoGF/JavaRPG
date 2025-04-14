@@ -1,0 +1,3 @@
+57: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 58: Continuar explorando
+# 59: Retornar pelo caminho

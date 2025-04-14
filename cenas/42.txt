@@ -1,0 +1,5 @@
+42: Você encontra um baú misterioso no caminho.
+# 43: Abrir o baú
+# 44: Ignorar
+
+I: diário antigo;c;0;0;0

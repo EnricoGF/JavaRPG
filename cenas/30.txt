@@ -1,0 +1,5 @@
+30: Você encontra um baú misterioso no caminho.
+# 31: Abrir o baú
+# 32: Ignorar
+
+I: anel mágico;c;0;0;0

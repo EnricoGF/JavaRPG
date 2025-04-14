@@ -1,0 +1,3 @@
+27: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 28: Continuar explorando
+# 29: Retornar pelo caminho

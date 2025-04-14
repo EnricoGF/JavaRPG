@@ -1,0 +1,3 @@
+3: Você caminha por uma trilha antiga cercada por árvores sombrias.
+# 4: Continuar explorando
+# 5: Retornar pelo caminho

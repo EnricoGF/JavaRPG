@@ -1,0 +1,10 @@
+nome=adonis
+classe=Mago
+habilidade=12
+energia=12
+sorte=6
+arma=Cetro
+moedas=12
+provisoes=1
+cenaAtual=6
+itens=poção;c;1;1;0
