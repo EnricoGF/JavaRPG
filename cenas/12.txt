@@ -1,0 +1,3 @@
+12: O homem não quer dialogar e tenta te acertar um soco, mas erra.
+# 8: Fugir e retornar a trilha norte
+# 11: Batalhar contra o homem

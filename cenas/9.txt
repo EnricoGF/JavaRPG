@@ -1,0 +1,2 @@
+9: Você se depara com um goblin, ele pergunta se você vai a festa mais tarde. Você não entende muito bem sobre o que ele está falando.
+# 3: Retornar a trilha ao norte

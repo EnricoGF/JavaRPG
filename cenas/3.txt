@@ -1,0 +1,3 @@
+3: Você caminha por uma trilha antiga cercada por árvores sombrias e ouve ao fundo sons de galhos quebrando.
+# 7: Investigar o som
+# 8: Seguir pela trilha

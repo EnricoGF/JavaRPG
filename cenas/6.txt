@@ -1,0 +1,3 @@
+6: A taverna está trancada, você da a volta e ve um buraco na parede dos fundos.
+# 9: Entrar pelo buraco
+# 3: Ir a trilha ao norte

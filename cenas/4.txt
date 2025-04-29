@@ -1,0 +1,3 @@
+4: Ao chegar na vila você vê pessoas reunidas e ouve sobre um barulho estranho na noite passada.
+# 5: Perguntar a alguem sobre o barulho
+# 6: Ir a taverna

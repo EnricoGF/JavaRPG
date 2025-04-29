@@ -1,0 +1,3 @@
+5: Você pergunta a uma senhora sobre o que estavam falando do barulho. Ela diz que sabe o porque você está ali e te direciona a uma trilha ao norte dizendo que pra lá está o seu propósito.
+# 3: Seguir a trilha ao norte
+# 6: Ir a taverna

@@ -1,0 +1,5 @@
+10: Você abre o baú, mas aparentemente o baú tinha um dono. Um homem estranho aparece com uma faca na mão.
+# 11: Batalhar contra o homem
+# 12: Tentar dialogar
+
+I: diário antigo;c;0;0;0

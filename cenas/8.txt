@@ -1,0 +1,3 @@
+8: Você segue pela trilha e avista longe uma ruína de alguma construção grande.
+# 13: Ir até a ruína
+# 14: Seguir na trilha ao leste

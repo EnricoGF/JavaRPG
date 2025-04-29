@@ -1,0 +1,10 @@
+nome=The rock
+classe=Cavaleiro
+habilidade=12
+energia=12
+sorte=12
+arma=Espada
+moedas=0
+provisoes=0
+cenaAtual=2
+itens=

@@ -1,0 +1,8 @@
+M: S
+N: Orc estranho
+H: 9
+S: 5
+E: 9
+T: 80
+P: 1
+15;1

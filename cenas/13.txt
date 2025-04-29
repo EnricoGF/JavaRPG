@@ -1,0 +1,3 @@
+13: Você chega na ruína e vê uma criatura do lado de fora.
+# 15: Entrar na ruína
+# 16: Ir até a criatura

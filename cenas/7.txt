@@ -1,0 +1,3 @@
+7: Você segue pela trilha e vê um baú misterioso.
+# 8: Seguir a trilha
+# 10: Abrir o baú

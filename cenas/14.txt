@@ -1,0 +1,3 @@
+14: Você segue pela trilha e percebe que está retornando ao vilarejo.
+# 9: Ir até a taverna da vila
+# 13: Retornar pela trilha e seguir até a ruína

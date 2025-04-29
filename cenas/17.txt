@@ -1,0 +1,3 @@
+17: Você se depara com um goblin, ele pergunta se você veio para a festa ou se está procurando confusão.
+# 19: Responder que veio a festa
+# 20: Responder que está procurando confusão

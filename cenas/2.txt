@@ -1,0 +1,3 @@
+2: Você caminha por uma trilha de mata fechada mas vê atrás das árvores um vilarejo.
+# 3: Retornar pela trilha ao norte
+# 4: Ir até o vilarejo
