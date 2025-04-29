@@ -13,6 +13,7 @@ public class Main {
         System.out.println("1 - Novo Jogo");
         System.out.println("2 - Carregar Jogo");
         System.out.println("3 - Créditos");
+        System.out.println("4 - Sair");
         int escolhaInicial = scanner.nextInt();
         scanner.nextLine();
 
@@ -23,6 +24,9 @@ public class Main {
 
         if(escolhaInicial == 3) {
             System.out.println("Criadores: Enrico Forte e Gabriel Soldi");
+        }
+        if (escolhaInicial == 4) {
+            System.out.println("Saindo...");
         }
 
         if (escolhaInicial == 2) {
